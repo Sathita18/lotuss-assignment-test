@@ -1,0 +1,23 @@
+#robot output
+log.html
+output.xml
+report.html
+
+#.idea
+.idea/
+
+#.png
+*.png
+
+#.pdf
+*.pdf
+*.zip
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtual environment
+\lotuss-assignment-web-test-env
