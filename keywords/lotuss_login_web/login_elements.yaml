@@ -1,0 +1,40 @@
+# lotuss homepage
+homepage_elements:
+  login_link: //*[@id="header-login-link"]
+  lotuss_logo: //*[@id="home-image"]
+  # login_success_message: //p[@class="MuiTypography-robot jss109 MuiTypography-body1"]
+
+login_elements:
+  close_button:  //button[@id="close-login-register-btn"]
+  login_via_mobile_label: //div[@class="MuiGrid-root MuiGrid-item"]
+  login_image: //img[@class="sc-fXNlap efddIa"]
+  login_label: //span[@class="jss36"]
+  click_here_link: //a[@id="click-here-login-page"]
+  input_username: //input[@id="username"]
+  username_label: //label[@id="username-label"]
+  input_password: //input[@id="password"]
+  password_label: //label[@id="password-label"]
+  toggle_password_button: //button[@id="toggle-password-field-btn"]
+  confirm_button: //button[@id="login"]
+  forgot_password_link: //a[@id="forgot-password"]
+  not_have_user_account: //p[@class="MuiTypography-root jss20 MuiTypography-body1"]
+  register_link: //a[@id="login-mobile"]
+
+register_elements:
+  back_button: //button[@id="btn-close"]
+  icon_lotus_club_card: //div[@class="MuiBox-root jss43"]//img[@class="jss29"]
+  activate_my_lotus_account_label: //p[@class="MuiTypography-root sc-gNUafA iAkUYp MuiTypography-body1"]
+  rewards: //p[@class="MuiTypography-root sc-jZJapT kenuFS MuiTypography-body1"]
+  confirm_button: //button[@id="btn-confirm"]
+  decline_button: //button[@id="btn-decline"]
+
+# register_elements:
+#   register_via_mobile_label: //div[@class="MuiGrid-root MuiGrid-item"]//h4[@class="MuiTypography-root jss42 jss25 MuiTypography-h4"]
+#   cross_icon_button: //button[@id="cross-icon-btn"]
+#   username_example: //p[@class="MuiTypography-root jss50 MuiTypography-body1"]
+#   confirm_button: //button[@id="confirm-for-register"]
+#   already_has_an_account: //div[@class="MuiBox-root jss58"]
+#   log_in_link: //a[@id="phone-login"]
+
+# register_request_otp_elements:
+#   back_button: //button[@id="btn-close"]

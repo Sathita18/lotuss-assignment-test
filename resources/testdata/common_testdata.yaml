@@ -1,0 +1,6 @@
+browser:
+    chrome: "chrome"
+    # headlesschrome: "headlesschrome"
+
+#default lang
+lang: "th"
