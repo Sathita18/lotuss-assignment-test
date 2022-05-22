@@ -1,3 +1,4 @@
 robotframework==3.2.1
 robotframework-seleniumlibrary==4.5.0
 PyYAML==5.3.1
+robotlibcore-temp==1.0.2
