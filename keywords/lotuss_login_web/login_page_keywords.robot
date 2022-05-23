@@ -31,8 +31,8 @@ web should display and validate login page
   element should contain  ${login_elements.forgot_password_link}  ${login_message.forgot_password_link}
   element should contain  ${login_elements.not_have_user_account}  ${login_message.not_have_user_account}
   element should contain  ${login_elements.register_link}  ${login_message.register_link}
-  input text  ${login_elements.input_username}  ${login_message.input_username}
-  input text  ${login_elements.input_password}  ${login_message.input_password}
+  input text  ${login_elements.input_username}  ${user_data.input_username}
+  input text  ${login_elements.input_password}  ${user_data.input_password}
 
 web should be display and validate register page
   click element  ${login_elements.confirm_button}
