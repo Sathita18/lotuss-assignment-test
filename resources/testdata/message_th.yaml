@@ -1,30 +1,3 @@
 homepage_message:
   login_label: "เข้าสู่ระบบ"
-  login_success_message: "คุณได้เข้าสู่ระบบแล้ว"
-
-login_message:
-  login_via_mobile_label: "เข้าสู่ระบบด้วยเบอร์โทรศัพท์มือถือ"
-  login_label: "สมาชิกมายโลตัสเข้าสู่ระบบครั้งแรก?"
-  click_here_link: "คลิกที่นี่"
-  username_label: "เบอร์โทรศัพท์มือถือ"
-  input_username: "0946710091"
-  password_label: "รหัสผ่าน"
-  input_password: "Test@1234"
-  confirm_button: "ยืนยัน"
-  forgot_password_link: "ลืมรหัสผ่าน?"
-  not_have_user_account: "ยังไม่มีบัญชีผู้ใช้?"
-  register_link: "สมัครสมาชิกโลตัส"
-
-register_message:
-  activate_my_lotus_account_label: "เปิดใช้งานบัญชี มายโลตัส"
-  rewards: "สะสม และแลกคอยน์ พร้อมรับสิทธิ์ประโยชน์มากมาย"
-  confirm_button: "เปิดใช้งาน"
-  decline_button: "ไว้ทีหลัง"
-
-# register_message:
-#   register_via_mobile_label: "สมัครสมาชิกด้วยเบอร์โทรศัพท์มือถือ"
-#   input_username: "0946710091"
-#   username_example: "ตัวอย่าง: 081XXXXXXX"
-#   confirm_button: "ยืนยัน"
-#   already_has_an_account: "มีบัญชีอยู่แล้ว?"
-#   log_in_link: "เข้าสู่ระบบ"
+  search_bar: "ค้นหาใน Lotus's"
