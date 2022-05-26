@@ -1,5 +1,6 @@
 homepage_message:
   login_label: "เข้าสู่ระบบ"
+  search_bar: "ค้นหาใน Lotus's"
   login_success_message: "คุณได้เข้าสู่ระบบแล้ว"
 
 login_message:
