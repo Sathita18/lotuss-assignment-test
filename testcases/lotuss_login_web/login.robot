@@ -1,7 +1,5 @@
 *** Settings ***
 Resource  ../import.robot
-Resource  ../keywords/common/common_keywords.robot
-Resource  ../keywords/lotuss_login_web/login_page_keywords.robot
 Documentation  Example command to execute: robot -v ENV:qa -v LANG:th
 Suite Teardown  close browser
 

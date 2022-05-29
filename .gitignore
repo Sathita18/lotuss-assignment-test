@@ -18,6 +18,3 @@ report.html
 __pycache__/
 *.py[cod]
 *$py.class
-
-# virtual environment
-\lotuss-assignment-web-test-env

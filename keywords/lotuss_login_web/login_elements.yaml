@@ -2,7 +2,7 @@
 homepage_elements:
   login_link: //*[@id="header-login-link"]
   lotuss_logo: //*[@id="home-image"]
-  # login_success_message: //p[@class="MuiTypography-robot jss109 MuiTypography-body1"]
+  search_bar:  //input[@id="search-bar-input"]  #//input[@class="MuiInputBase-input jss346 MuiAutocomplete-input MuiAutocomplete-inputFocused"]   #//div[@class="jss8"]//input[@id="search-bar-input"]//input[@id="search-bar-input"]
 
 login_elements:
   close_button:  //button[@id="close-login-register-btn"]
@@ -27,14 +27,3 @@ register_elements:
   rewards: //p[@class="MuiTypography-root sc-jZJapT kenuFS MuiTypography-body1"]
   confirm_button: //button[@id="btn-confirm"]
   decline_button: //button[@id="btn-decline"]
-
-# register_elements:
-#   register_via_mobile_label: //div[@class="MuiGrid-root MuiGrid-item"]//h4[@class="MuiTypography-root jss42 jss25 MuiTypography-h4"]
-#   cross_icon_button: //button[@id="cross-icon-btn"]
-#   username_example: //p[@class="MuiTypography-root jss50 MuiTypography-body1"]
-#   confirm_button: //button[@id="confirm-for-register"]
-#   already_has_an_account: //div[@class="MuiBox-root jss58"]
-#   log_in_link: //a[@id="phone-login"]
-
-# register_request_otp_elements:
-#   back_button: //button[@id="btn-close"]
