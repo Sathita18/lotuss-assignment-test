@@ -1,0 +1,4 @@
+# lotuss homepage
+homepage_elements:
+  login_link: //*[@id="header-login-link"]
+  lotuss_logo: //*[@id="home-image"]
