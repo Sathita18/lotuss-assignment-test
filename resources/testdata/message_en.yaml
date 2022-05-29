@@ -1,0 +1,21 @@
+homepage_message:
+  login_label: "Login"
+  search_bar: "Search in Lotus's"
+  login_success_message: "You have logged in."
+
+login_message:
+  login_via_mobile_label: "Login With Your Mobile Number"
+  login_label: "First time login for My Lotus's member?"
+  click_here_link: "Click here"
+  username_label: "Mobile Number"
+  password_label: "Password"
+  confirm_button: "Confirm"
+  forgot_password_link: "Forgot Password?"
+  not_have_user_account: "New customer?"
+  register_link: "Register Now"
+
+register_message:
+  activate_my_lotus_account_label: "Activate My Lotus's"
+  rewards: "To start shopping and for rewards"
+  confirm_button: "Activate"
+  decline_button: "Maybe Later"
