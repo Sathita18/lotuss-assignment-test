@@ -1,10 +1,9 @@
 *** Settings ***
 Library    SeleniumLibrary
 Resource   keywords/common/common_keywords.robot
-Resource   keywords/lotuss_random_search_product_web/login_page_keywords.robot
+Resource   keywords/lotuss_login_web/login_page_keywords.robot
 Resource   keywords/lotuss_random_search_product_web/random_search_product.robot
-Variables  keywords/lotuss_random_search_product_web/login_elements.yaml
-Variables  keywords/lotuss_random_search_product_web/random_search_product.yaml
+Variables  keywords/lotuss_login_web/login_elements.yaml
 Variables  resources/configs/common_config.yaml
 Variables  resources/configs/${ENV}/config.yaml
 Variables  resources/testdata/common_testdata.yaml
