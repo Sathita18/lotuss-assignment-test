@@ -50,27 +50,3 @@ web should be navigated to home page and show message login successfully
   sleep  3s
   Capture Page Screenshot  logged_in.png
   location should be  ${lt_web_url.${LANG}}
-  
-#   page should contain  คุณได้เข้าสู่ระบบแล้ว     #${homepage_message.login_success_message}
-#   wait until page contains  คุณได้เข้าสู่ระบบแล้ว  1m
-
-
-# web should be display and validate register page
-#   click element  ${login_elements.register_link}
-#   sleep  5s
-#   location should be  ${lt_web_register_url.${LANG}}
-#   element should be visible  ${login_elements.close_button}
-#   element should contain  ${register_elements.register_via_mobile_label}  ${register_message.register_via_mobile_label}
-#   element should be visible  ${login_elements.login_image}
-#   input text   ${login_elements.input_username}  ${register_message.input_username}
-#   element should be visible  ${register_elements.cross_icon_button}
-#   element should contain  ${register_elements.username_example}  ${register_message.username_example}
-#   element should contain  ${register_elements.confirm_button}  ${register_message.confirm_button}
-#   element should contain  ${register_elements.already_has_an_account}  ${register_message.already_has_an_account}
-#   element should contain  ${register_elements.log_in_link}  ${register_message.log_in_link}
-
-# web should be display register request otp page
-#   click element  ${register_elements.confirm_button}
-#   sleep  5s
-#   location should be  ${lt_web_register_request_otp_page_url.${LANG}}
-#   element should be visible  ${register_request_otp_elements.back_button}

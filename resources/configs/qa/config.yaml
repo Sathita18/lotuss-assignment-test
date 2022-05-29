@@ -1,3 +1,11 @@
 lt_web_url:
     th: "https://www.lotuss.com/th"
     en: "https://www.lotuss.com/en"
+
+lt_web_login_url:
+    th: "https://www.lotuss.com/th/login"
+    en: "https://www.lotuss.com/en/login"
+
+lt_web_register_url:
+    th: "https://www.lotuss.com/th/my-lotuss-register"
+    en: "https://www.lotuss.com/en/my-lotuss-register"
