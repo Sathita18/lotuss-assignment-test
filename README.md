@@ -30,10 +30,10 @@ pip freeze
 
 ## Development
 #### Execute by tag
-    robot -v ENV:{{env}} -v LANG:{{lang}} -d {{result directory}} -i {{tag_name}} testcases
+    robot -v ENV:{{env}} -v -d {{result directory}} -i {{tag_name}} testcases
 #### Execute by test name
-    robot -v ENV:{{env}} -v LANG:{{lang}} -d {{result directory}} -t "{{test name}}" testcases
+    robot -v ENV:{{env}} -d {{result directory}} -t "{{test name}}" testcases
 #### Execute by test suite
-    robot -v ENV:{{env}} -v LANG:{{lang}} -d {{result directory}} testcases/{{test suite name}}.robot
+    robot -v ENV:{{env}} -d {{result directory}} testcases/{{test suite name}}.robot
 #### Execute all project
-    robot -v ENV:{{env}} -v LANG:{{lang}} -d {{result directory}} testcases
+    robot -v ENV:{{env}} -d {{result directory}} testcases

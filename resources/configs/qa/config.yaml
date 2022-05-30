@@ -1,11 +1,6 @@
-lt_web_url:
-    th: "https://www.lotuss.com/th"
-    en: "https://www.lotuss.com/en"
+oneapp_mobile_url_th: "https://api.qa.customer.it-lotus.com/oneapp-mobile-bff"
+oneapp_mobile_url_my: "https://api.qa.customer.my.it-lotus.com/oneapp-mobile-bff"
 
-lt_web_login_url:
-    th: "https://www.lotuss.com/th/login"
-    en: "https://www.lotuss.com/en/login"
-
-lt_web_register_url:
-    th: "https://www.lotuss.com/th/my-lotuss-register"
-    en: "https://www.lotuss.com/en/my-lotuss-register"
+key:
+  type_th: "cL1wvTEJcL3d6UFdZQUk4WlR1XC84S1N"
+  type_my: "8X2fGMCgclNqYL4IRBzHOs61ZmQkTu9eu5RGTw8cfAtUlXa96FqEz1mJneMgOhkHP0jNS7Ys4V3pLvibDIBodCWQyZx2Kr"

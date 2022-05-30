@@ -1,1 +1,7 @@
-test: "test"
+x_request_id:
+  send_otp: "uuid"
+  verify_otp: "validate_otp_register_12345"
+
+uri: 
+  send_otp: "/auth/v1/send-otp/register"
+  verify_otp: "/auth/v1/verify-otp/register"

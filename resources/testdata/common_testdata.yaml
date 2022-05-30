@@ -1,6 +1,4 @@
-browser:
-    chrome: "chrome"
-    # headlesschrome: "headlesschrome"
-
-#default lang
-lang: "th"
+otp_common_data:
+  mobile_number_th: "66420000090"
+  mobile_number_my: "60100000170"
+  otp: "010101"
